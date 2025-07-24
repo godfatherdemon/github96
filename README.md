@@ -1,14 +1,15 @@
-# Github 🐙 repos and users<br /> With a Windows 95 🖥️ style<br /> Built with React 🚀
+# Github repos and users<br /> lookslike a Windows 🖥️ style<br /> Built with React 🚀
 
-Welcome to Github95 - where you can browse Github without the distractions of a modern website. Rewind to a time where the experience was simpler, grey, and so pixelated you needed to squint!
+Welcome... - where you can browse Github without the distractions of a modern website. Rewind to a time where the experience was simpler, grey, and so pixelated you needed to squint!
 
-[Visit Github95 now](https://github95.now.sh/)
+Reference
+[Github95](https://github95.now.sh/)
 
 ![](https://ghcdn.rawgit.org/edwardpayton/github95/master/example-images/github95-desktop.png)
 
-Use Github95 to search repositories, delve into the contents of a repository, and find out facts about Github users.
+Used to search repositories, delve into the contents of a repository, and find out facts about Github users.
 
-The app is built with [React](https://reactjs.org), [Recoil](https://recoiljs.org) for state management, and the [React95](https://github.com/arturbien/React95) component library to give it the Windows 95 charm.
+The app is built with [React](https://reactjs.org), [Recoil](https://recoiljs.org) for state management, and the [React95](https://github.com/arturbien/React95) component library to give it the Windows charm.
 
 This started off as a small lockdown project to try out the Github GraphQL API, and generating some good insights from it. The project quickly developed into a fun faux desktop, with icons and applications.
 
