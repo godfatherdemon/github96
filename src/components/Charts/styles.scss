@@ -1,0 +1,82 @@
+.labels {
+  &.-x {
+    position: relative;
+    padding-right: 30px;
+    margin: -25px -10px 0;
+    &:before {
+      position: absolute;
+      content: "";
+      left: 0;
+      right: 30px;
+      height: calc(50% + 1px);
+      background-image: linear-gradient(
+        to right,
+        black 25%,
+        rgba(255, 255, 255, 0) 0%
+      );
+      background-position: bottom;
+      background-size: 8px 2px;
+      background-repeat: repeat-x;
+    }
+    > p {
+      position: relative;
+      padding: 0 10px;
+      background-color: #fff;
+      font-size: 8px !important;
+    }
+  }
+  &.-y {
+    position: absolute;
+    right: 5px;
+    top: 30px;
+    bottom: 20px;
+    text-align: center;
+    &:before {
+      position: absolute;
+      content: "";
+      top: 0;
+      bottom: 0;
+      width: calc(50% + 1px);
+      background-image: linear-gradient(black 25%, rgba(255, 255, 255, 0) 0%);
+      background-position: right;
+      background-size: 2px 8px;
+      background-repeat: repeat-y;
+    }
+    > p {
+      position: relative;
+      padding: 1px 0;
+      background-color: #fff;
+      font-size: 8px !important;
+    }
+  }
+}
+
+.areaChart {
+  position: relative;
+  margin-top: -30px;
+}
+
+.pieChart {
+  position: relative;
+  width: 100%;
+  max-height: 300px;
+  padding-left: 1rem;
+}
+
+.heatMap {
+  position: relative;
+
+  &__chart {
+    padding-right: 35px;
+  }
+  .labels {
+    &.-y {
+      top: 10px;
+      bottom: 20px;
+      right: 0;
+    }
+    &.-x {
+      margin: -3px -10px 0;
+    }
+  }
+}
