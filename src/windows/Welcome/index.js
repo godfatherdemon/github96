@@ -48,9 +48,9 @@ export default function Welcome() {
     <div className="p2 flex flex-column welcome">
       <h1 className="mb2 welcome__title">
         Welcome to <span className="welcome__ghText">Github</span>
-        <span className="welcome__95Text">95</span>
+        <span className="welcome__95Text">96</span>
       </h1>
-      <p>Github with the glorious beauty of Windows 95.</p>
+      <p>Github with the glorious beauty of Windows 96.</p>
       <p className="mb2">
         Find interesting repos, and get details about user profiles.
       </p>
@@ -69,7 +69,7 @@ export default function Welcome() {
               <p>
                 To browse Github repositories and users, you just click
                 <br />
-                the Github95 button, and then the programs icon.
+                the Github96 button, and then the programs icon.
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Welcome() {
             </Button>
             <Button
               onClick={handleCodeClick}
-              data-name="edwardpaytongithub95"
+              data-name="godfatherdemon"
               className="mt1"
             >
               View code
@@ -98,7 +98,7 @@ export default function Welcome() {
           </div>
 
           <Anchor
-            href="https://github.com/edwardpayton/github95"
+            href="https://github.com/godfatherdemon/github96"
             target="_blank"
           >
             Open code on Github

@@ -1,6 +1,6 @@
 const welcome = {
   label: "Welcome",
-  header: "Welcome to Github95",
+  header: "Welcome to Github96",
   desktopIcon: "",
   desktopPosition: null,
   visibility: [true, true], // eg [button visible (show button), window visible (show window)]
@@ -42,7 +42,7 @@ const mostFollowed = {
 };
 const about = {
   label: "About",
-  header: "Notepad - About Github95.txt",
+  header: "Notepad - About Github96.txt",
   desktopIcon: require(`../assets/wordpad.png`).default,
   desktopPosition: 4,
   visibility: [false, false],

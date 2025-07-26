@@ -125,7 +125,8 @@
   right: 0;
   bottom: 0;
   background-blend-mode: multiply;
-  background: radial-gradient(3px 3px, transparent, white);
+  background: radial-gradient(closest-side at 0 0, #fff, #000);
+  ;
   background-size: 3px 3px;
 }
 

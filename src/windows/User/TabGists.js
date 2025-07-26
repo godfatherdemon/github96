@@ -74,10 +74,10 @@ export default function TabGists({ gists, total, onPageChange }) {
                   <Cutout className="gist__cutout">
                     <div className="gist__code">
                       <p>
-                        C: \ Github95 {">"} cd {name} \
+                        C: \ Github96 {">"} cd {name} \
                       </p>
                       <p>
-                        C: \ Github95 {">"} print {name}
+                        C: \ Github96 {">"} print {name}
                         {files[0].extension}
                       </p>
                       <pre>{files[0].text}</pre>

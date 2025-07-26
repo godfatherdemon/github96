@@ -29,9 +29,9 @@ export default function About() {
       </div>
       <div className="scrollable -yOnly aboutWindow__body">
         <div className="aboutWindow__bodyInner">
-          <h1 className="mb2">About Github95</h1>
+          <h1 className="mb2">About Github96</h1>
           <p className="mb2">
-            Welcome to Github95 - where you can browse Github without the
+            Welcome to Github96 - where you can browse Github without the
             distractions of a modern website. Rewind to a time where the
             experience was simpler, grey, and so pixelated you needed to squint!
           </p>
@@ -132,7 +132,6 @@ export default function About() {
             alt=""
           />
 
-          <p className="mt2">All the best, Edward Payton :)</p>
         </div>
       </div>
     </section>

@@ -112,7 +112,7 @@ export default function StartMenu() {
           alt=""
           className="pixelated startMenu__logo"
         />
-        Github95
+        Github96
       </Button>
     </div>
   );

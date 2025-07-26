@@ -31,7 +31,7 @@ export default function Login({ onLogin }) {
         className="flex-column windowFrame__inner login__window"
       >
         <WindowHeader className="flex items-center justify-between handle">
-          <span>Welcome to Github95</span>
+          <span>Welcome to Github96</span>
           <Button size={"sm"} square disabled={false} onClick={() => ""}>
             <span
               style={{
@@ -51,12 +51,12 @@ export default function Login({ onLogin }) {
               className="pl1 pr3 pixelated login__image"
             />
             <div>
-              <p className="pb2">Click OK to log on to Github95</p>
+              <p className="pb2">Click OK to log on to Github96</p>
               <div className="relative">
                 <div className="absolute login__inputOverlay"></div>
                 <div className="flex pb1 login__input">
                   <p>User name:</p>
-                  <TextField value="Admin" onChange={() => ""} />
+                  <TextField value="God" onChange={() => ""} />
                 </div>
                 <div className="flex login__input">
                   <p>Password</p>
@@ -73,11 +73,11 @@ export default function Login({ onLogin }) {
 
       {showError && (
         <ErrorPopup
-          header="Github95 has encountered an error"
+          header="Github96 has encountered an error"
           dismissable={false}
         >
           <p className="pb1">
-            Unfortunately you cannot access Github95 now because the api rate
+            Unfortunately you cannot access Github96 now because the api rate
             limit has been exceeded.
           </p>
           <p>Please try again after {limit.resetAt}.</p>
